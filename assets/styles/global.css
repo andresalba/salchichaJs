@@ -1,4 +1,18 @@
+
+html{
+    font-size: 16px;
+}
+
 body{
     background-color: rgb(59,76,65);
     font-family: 'Poppins', sans-serif;
+    padding: 4em;
+}
+
+.App{
+    background-color: rgb(255, 250,241);
+    padding-top: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 4rem;
 }
