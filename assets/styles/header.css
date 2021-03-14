@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.navbar__icon {
+  width: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.navbar-list {
+  display: none;
+}
+
+.navbar-list__item {
+  list-style: none;
+}
+
+@media screen and (min-width: 719px) {
+  .navbar__icon {
+    display: none;
+  }
+
+  .navbar-list {
+    display: block;
+  }
+}

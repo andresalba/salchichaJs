@@ -1,0 +1,10 @@
+:root {
+  --fontSizeBaseDoc: 16px;
+
+  --color-brand1: #3d3b3b;
+  --color-brand1-light: rgb(147, 143, 141);
+  --color-brand2: rgb(248, 124, 64);
+  --bgColor-brandDark1: rgb(59, 76, 65);
+  --bgColor-brandLight1: rgb(255, 250, 241);
+}
+

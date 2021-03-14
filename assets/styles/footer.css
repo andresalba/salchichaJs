@@ -1,16 +1,16 @@
-.footer__content{
+.footer-content{
     display: flex;
     justify-content: space-between;
     font-size: 0.9rem;
-    border-top: 1px solid rgb(147, 143, 141);
+    border-top: 1px solid var(--color-brand1-light);
     padding-top: 2rem;
 }
 
-.footer__content__face{
+.footer-content__face{
     max-width: 36px;
     max-height: 36px;
 }
 
-.footer__content__Eat{
-    color: rgb(147, 143, 141);
+.footer-content__eat{
+    color: var(--color-brand1-light);
 }
