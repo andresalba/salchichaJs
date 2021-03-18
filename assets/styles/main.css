@@ -1,3 +1,51 @@
 .main {
   padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main-parBlack {
+  font-family: 'Righteous', cursive;
+  /*font-family: 'Quattrocento Sans', sans-serif;*/
+  font-size: 3rem;
+}
+
+.main-parOrange{
+  font-family: 'Righteous', cursive;
+  /*font-family: 'Quattrocento Sans', sans-serif;*/  
+  color: var(--color-brand2);
+  font-size: 3rem;
+}
+
+.main-search{
+  /*background-color: chartreuse;*/
+  position: relative;
+}
+
+.main-input{
+  margin-top: 2rem;
+  border-radius: 50px;
+  border: none;
+  height: 3rem;
+  width: 20em;
+  padding: 1rem;
+  box-shadow: 2px 2px 2px 2px var(--color-brand2-dark);
+}
+
+.main-input:focus, input:focus{
+  border: none;
+  outline: none;
+}
+
+.main-input:hover{
+  border: none;
+  outline: none;  
+}
+
+.main-input__arrow{
+  max-width: 40px;
+  max-height: 40px;
+  position: absolute;
+  top:45%;
+  left:51.5%;
 }

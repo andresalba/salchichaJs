@@ -8,6 +8,11 @@
   margin-inline-end: 0;
 }
 
+.All{
+  display: flex;
+  flex-direction: row;
+}
+
 html {
   font-size: var(--fontSizeBaseDoc);
 }
@@ -15,7 +20,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   color: var(--color-brand1);
-  padding: 0.4rem;
+  padding: 2.0rem;
   background-color: var(--bgColor-brandDark1);
 }
 
@@ -27,4 +32,25 @@ body {
   max-width: 1440px;
   min-height: 100vh;
   background-color: var(--bgColor-brandLight1);
+}
+
+.salch{
+  display: none;
+  width:0;
+}
+
+@media screen and (min-width: 820px) {/*cuando el tamaño del browser sea 820px o mas*/
+
+  .salch{
+    display: inline;
+    padding: 0;
+    margin: 0;
+  }
+
+  .salch-img{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: chartreuse;
+  }
 }
